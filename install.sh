@@ -41,4 +41,4 @@ ln -s $PWD/nvim ~/.config
 
 ln -sf $PWD/.ideavimrc ~/.ideavimrc
 
-cp fonts/* /usr/share/fonts
+sudo cp fonts/* /usr/share/fonts
