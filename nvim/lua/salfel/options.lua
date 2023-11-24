@@ -15,7 +15,6 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 vim.opt.mouse = 'a'
-vim.opt.mousemoveevent = true
 
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 12

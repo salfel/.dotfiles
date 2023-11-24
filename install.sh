@@ -2,10 +2,9 @@ mkdir -p ~/.local/bin
 
 pckmng=${1:-"apt"}
 
-sudo $pckmng install zsh vim curl git
+sudo $pckmng install zsh curl 
 
 ln -sf $PWD/zsh/.zshrc ~/.zshrc 
-ln -sf $PWD/zsh/.p10k.zsh ~/.p10k.zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
