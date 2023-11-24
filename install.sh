@@ -34,6 +34,11 @@ sed -i "s|Exec=kitty|Exec=/home/$USER/.local/kitty.app/bin/kitty|g" ~/.local/sha
 ln -sf $PWD/kitty/kitty.conf ~/.config/kitty/kitty.conf
 ln -sf $PWD/kitty/current-theme.conf ~/.config/kitty/current-theme.conf
 
+# Neovmim
+sudo apt install neovim
+mkdir -p  ~/.config
+ln -s $PWD/nvim ~/.config
+
 ln -sf $PWD/.ideavimrc ~/.ideavimrc
 
 cp fonts/* /usr/share/fonts
